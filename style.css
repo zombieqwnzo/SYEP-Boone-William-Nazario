@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: brightorange;
+    background-color: orange;
     text-align: center;
     line-height: 2.0;
 }
@@ -15,5 +15,26 @@ body{
 }
 
 .accent{
-    color:whitesmoke;
+    color:rgb(255, 1, 145);
+}
+
+
+@media screen (max-width: 768px){
+    body{background-color: blue}
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+   /* justifly-content: space-around */
+   gap: 15px;
+flex-wrap:wrap;
+}
+
+.grid div{
+    background-color: purple;
+    border-radius: 100px;
+    padding: 8px;
+    min-width: 80px;
+    
 }
